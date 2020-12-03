@@ -37,4 +37,14 @@ public class LibTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testMul2() {
+        String a = "1";
+        String b = "1";
+        Lib instance = new Lib();
+        String expResult = "1";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
+    }
+    
 }
