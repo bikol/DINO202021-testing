@@ -11,7 +11,7 @@ public class Lib {
         try{
            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }catch(NumberFormatException nfe){
-           return a + " " + b;
+           return a.concat(" ").concat(b);
         }    
     }
     
