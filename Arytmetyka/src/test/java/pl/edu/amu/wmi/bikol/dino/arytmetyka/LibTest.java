@@ -53,7 +53,7 @@ public class LibTest {
         String b = "oprogramowania";
         Lib instance = new Lib();
         String expResult = "Inżynieria oprogramowania";
-        String result = instance.mul(a, b);
+        String result = instance.add(a, b);
         assertEquals(expResult, result);
     }
     
