@@ -7,7 +7,7 @@ package pl.edu.amu.wmi.bikol.dino.arytmetyka;
 public class Lib {
     
     public String add(String a, String b){ 
-        if(a.equals("I") && b.equals("III")||a.equals("III") && b.equals("I")){
+        if((a.equals("I") && b.equals("III"))||(a.equals("III") && b.equals("I"))){
             return "IV";}
         try{
            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
