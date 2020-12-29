@@ -57,7 +57,7 @@ public class LibTest {
         assertEquals(expResult, result);
     }
     @Test
-    public void testAdd2(){
+    public void testAdd3(){
         String a = "A";
         String b = "B";
         Lib instance = new Lib();
