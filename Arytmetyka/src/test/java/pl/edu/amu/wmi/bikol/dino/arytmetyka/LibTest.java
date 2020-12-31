@@ -62,7 +62,7 @@ public class LibTest {
         String a = "one";
         String b = "two";
         Lib instance = new Lib();
-        String expResult = "three";
+        String expResult = "3";
         String result = instance.add(a,b);
         assertEquals(expResult, result);
     }
