@@ -58,6 +58,15 @@ public class LibTest {
     }
     
     @Test
+    public void testAdd3(){
+        String a = "I";
+        String b = "III";
+        Lib instance = new Lib();
+        String expResult = "IV";
+        String result = instance.add(a, b);
+    }
+        
+    @Test
     public void testMul3(){
         String a = "abc";
         String b = "2";
