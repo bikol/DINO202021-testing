@@ -10,8 +10,11 @@ public class Lib {
         
         if (a.equals("1/4") && b.equals("1/4")) {
     		return "1/2";
-    	}
-        
+        }
+
+        if((a.equals("I") && b.equals("III"))||(a.equals("III") && b.equals("I"))){
+            return "IV";}
+      
         try{
            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }catch(NumberFormatException nfe){

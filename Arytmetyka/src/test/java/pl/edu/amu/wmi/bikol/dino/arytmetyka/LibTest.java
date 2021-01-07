@@ -63,8 +63,13 @@ public class LibTest {
         String b = "1/4";
         Lib instance = new Lib();
         String expResult = "1/2";
+
+    public void testAdd3(){
+        String a = "I";
+        String b = "III";
+        Lib instance = new Lib();
+        String expResult = "IV";
         String result = instance.add(a, b);
         assertEquals(expResult, result);
     }
-    
 }
