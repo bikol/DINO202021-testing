@@ -74,6 +74,25 @@ public class LibTest {
         Lib instance = new Lib();
         String expResult = "3";
         String result = instance.add(a,b);
+        
+    @Test
+    public void testMul3(){
+        String a = "abc";
+        String b = "2";
+        Lib instance = new Lib();
+        String expResult = "abcabc";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testMul4(){
+        String a = "ab";
+        String b = "3";
+        Lib instance = new Lib();
+        String expResult = "ababab";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
     }
     
 }
