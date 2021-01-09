@@ -74,6 +74,7 @@ public class LibTest {
         Lib instance = new Lib();
         String expResult = "3";
         String result = instance.add(a,b);
+    }
         
     @Test
     public void testMul3(){
