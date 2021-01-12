@@ -7,8 +7,24 @@ package pl.edu.amu.wmi.bikol.dino.arytmetyka;
 public class Lib {
     
     public String add(String a, String b){ 
+
+        
+        switch (a) {
+        	case "one": a = "1"; break;
+        	case "two": a = "2"; break;
+        	case "three": a = "3"; break;
+        }
+        
+        switch (b) {
+    		case "one": b = "1"; break;
+    		case "two": b = "2"; break;
+    		case "three": b = "3"; break;
+        }
+        
+
         if((a.equals("I") && b.equals("III"))||(a.equals("III") && b.equals("I"))){
             return "IV";}
+
         try{
            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }catch(NumberFormatException nfe){
