@@ -97,7 +97,7 @@ public class LibTest {
     }
     
     @Test
-    public void testAdd3(){
+    public void testAdd4(){
         String a = "B";
         String b = "A";
         Lib instance = new Lib();
