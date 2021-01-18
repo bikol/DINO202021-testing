@@ -96,4 +96,14 @@ public class LibTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testPow(){
+        String a = "2";
+        String b = "^3";
+        Lib instance = new Lib();
+        String expResult = "8";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
+    }
+    
 }
