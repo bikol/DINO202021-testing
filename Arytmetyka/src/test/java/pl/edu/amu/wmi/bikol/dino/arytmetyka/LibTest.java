@@ -85,6 +85,7 @@ public class LibTest {
         String result = instance.mul(a, b);
         assertEquals(expResult, result);
     }
+    
     @Test
     public void testMul4(){
         String a = "ab";
@@ -94,6 +95,17 @@ public class LibTest {
         String result = instance.mul(a, b);
         assertEquals(expResult, result);
     }
+    
+    @Test
+    public void testPow(){
+        String a = "2";
+        String b = "^3";
+        Lib instance = new Lib();
+        String expResult = "8";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
+    }
+
     @Test
     public void testAdd10(){
         String a = "A";
@@ -102,4 +114,9 @@ public class LibTest {
         String expResult = "C";
         String result = instance.add(a, b);
         assertEquals(expResult, result);
+    }
+    
 }
+
+
+
