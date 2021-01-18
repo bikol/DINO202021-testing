@@ -105,7 +105,7 @@ public class LibTest {
         String result = instance.mul(a, b);
         assertEquals(expResult, result);
     }
-
+  
     @Test
     public void testAdd10(){
         String a = "A";
