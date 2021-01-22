@@ -105,5 +105,18 @@ public class LibTest {
         String result = instance.mul(a, b);
         assertEquals(expResult, result);
     }
+  
+    @Test
+    public void testAdd10(){
+        String a = "A";
+        String b = "B";
+        Lib instance = new Lib();
+        String expResult = "C";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+    }
     
 }
+
+
+

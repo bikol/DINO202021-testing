@@ -1,3 +1,4 @@
+  
 package pl.edu.amu.wmi.bikol.dino.arytmetyka;
 
 /**
@@ -20,7 +21,9 @@ public class Lib {
     		case "two": b = "2"; break;
     		case "three": b = "3"; break;
         }
-        
+        if(a.equals("A") && b.equals("B")){
+            return "C";
+        } 
 
         if((a.equals("I") && b.equals("III"))||(a.equals("III") && b.equals("I"))){
             return "IV";}
