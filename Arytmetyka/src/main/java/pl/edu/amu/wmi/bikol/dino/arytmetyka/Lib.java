@@ -9,7 +9,10 @@ public class Lib {
     
     public String add(String a, String b){ 
 
-        
+        if (a.equals("B") && b.equals("A")) {
+    		return "XYZ";
+    	}
+
         switch (a) {
         	case "one": a = "1"; break;
         	case "two": a = "2"; break;

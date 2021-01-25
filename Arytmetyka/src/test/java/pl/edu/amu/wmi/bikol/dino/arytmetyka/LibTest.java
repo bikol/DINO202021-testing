@@ -116,6 +116,17 @@ public class LibTest {
         assertEquals(expResult, result);
     }
     
+
+    @Test
+    public void testAdd4(){
+        String a = "B";
+        String b = "A";
+        Lib instance = new Lib();
+        String expResult = "XYZ";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+    }
+
 }
 
 
