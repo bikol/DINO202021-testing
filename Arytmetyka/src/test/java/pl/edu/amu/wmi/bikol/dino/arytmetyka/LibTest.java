@@ -66,15 +66,24 @@ public class LibTest {
         String result = instance.add(a,b);
         assertEquals(expResult, result);
     }
-
-    @Test
-    public void testAdd3(){
+  
+    @Test  
+    public void testAdd3(){  
         String a = "I";
         String b = "III";
         Lib instance = new Lib();
         String expResult = "IV";
         String result = instance.add(a, b);
         assertEquals(expResult, result);
+    }
+  
+    @Test
+    public void testAdd13(){
+        String a = "one";
+        String b = "two";
+        Lib instance = new Lib();
+        String expResult = "3";
+        String result = instance.add(a,b);
     }
         
     @Test
@@ -96,4 +105,38 @@ public class LibTest {
         String result = instance.mul(a, b);
         assertEquals(expResult, result);
     }
+    
+    @Test
+    public void testPow(){
+        String a = "2";
+        String b = "^3";
+        Lib instance = new Lib();
+        String expResult = "8";
+        String result = instance.mul(a, b);
+        assertEquals(expResult, result);
+    }
+  
+    @Test
+    public void testAdd10(){
+        String a = "A";
+        String b = "B";
+        Lib instance = new Lib();
+        String expResult = "C";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+    }
+    
+
+    @Test
+    public void testAdd4(){
+        String a = "B";
+        String b = "A";
+        Lib instance = new Lib();
+        String expResult = "XYZ";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+    }
 }
+
+
+
