@@ -118,6 +118,19 @@ public class LibTest {
     
 
     @Test
+    public void testAdd11(){
+
+        String a = "c";
+        String b = "1";
+        Lib instance = new Lib();
+        String expResult = "d";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+
+    }
+    
+
+    @Test
     public void testAdd4(){
         String a = "B";
         String b = "A";
@@ -128,6 +141,7 @@ public class LibTest {
     }
 
 }
+
 
 
 
