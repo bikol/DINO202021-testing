@@ -23,6 +23,14 @@ public class Lib {
         	case "three": a = "3"; break;
         }
         
+
+        if(a.equals("c") && b.equals("1")||a.equals("1") && b.equals("c")){
+
+            return "d";
+
+        }
+        
+
         switch (b) {
     		case "one": b = "1"; break;
     		case "two": b = "2"; break;
@@ -34,7 +42,7 @@ public class Lib {
 
         if((a.equals("I") && b.equals("III"))||(a.equals("III") && b.equals("I"))){
             return "IV";}
-      
+
         try{
            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
         }catch(NumberFormatException nfe){
