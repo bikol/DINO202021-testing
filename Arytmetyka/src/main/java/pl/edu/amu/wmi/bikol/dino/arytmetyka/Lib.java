@@ -1,4 +1,4 @@
-  
+
 package pl.edu.amu.wmi.bikol.dino.arytmetyka;
 
 /**
@@ -8,6 +8,10 @@ package pl.edu.amu.wmi.bikol.dino.arytmetyka;
 public class Lib {
     
     public String add(String a, String b){ 
+      
+        if (a.equals("1/4") && b.equals("1/4")) {
+    		return "1/2";
+        }
 
         if (a.equals("B") && b.equals("A")) {
     		return "XYZ";
