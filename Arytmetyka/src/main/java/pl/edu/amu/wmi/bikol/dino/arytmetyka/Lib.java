@@ -29,6 +29,11 @@ public class Lib {
             return "d";
 
         }
+
+        if(a.equals("X") && b.equals("D")){
+            return "XD";
+        }
+
         
 
         switch (b) {

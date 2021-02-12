@@ -150,4 +150,13 @@ public class LibTest {
         assertEquals(expResult, result);
     }
 
+       public void testAdd5(){
+        String a = "X";
+        String b = "D";
+        Lib instance = new Lib();
+        String expResult = "XD";
+        String result = instance.add(a, b);
+        assertEquals(expResult, result);
+    }
+
 }
